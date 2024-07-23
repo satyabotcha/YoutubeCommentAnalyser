@@ -10,7 +10,7 @@ CLIENT_SECRETS_FILE = "client_secret_key.json"  # Name of the JSON file
 
 # Access Google Sheets
 gc = pygsheets.authorize(outh_file='credentials.json')
-sheet = gc.open_by_key('1iT680JWO-5zAOweypNvCp51K3A6lp9BTCwfZUWh6YIU')
+sheet = gc.open_by_key('')  # Replace with your Google Sheet ID
 
 # This OAuth 2.0 access scope allows for full read/write access to the
 # authenticated user's account and requires requests to use an SSL connection.
